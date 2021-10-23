@@ -37,6 +37,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+
 nav ul li a::after {
   content: "";
   position: absolute;
@@ -47,6 +48,7 @@ nav ul li a::after {
   bottom: -5px;
   transition: 1s;
 }
+
 nav ul li a:hover {
   color: #fff;
 }
@@ -80,6 +82,7 @@ nav ul li a:hover:after {
 #image {
   max-width: 100%;
 }
+
 #img-caption {
   margin-top: 10px;
   font-size: 1em;
@@ -147,9 +150,11 @@ nav ul li a:hover:after {
 #video {
   text-align: center;
 }
+
 .list-video {
   margin: 20px auto;
 }
+
 #follow {
   background-color: #000;
   padding: 10px;
@@ -168,6 +173,7 @@ nav ul li a:hover:after {
 }
 
 #follow li {
+  list-style: none;
   font-size: 3em;
   margin: 0 10px;
 }
